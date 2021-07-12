@@ -6,7 +6,7 @@ const FiltersScreen = () => {
         <View style={styles.screen}>
             <Text>FiltersScreen</Text>
         </View>
-    )
+    );
 }
 
 const styles = StyleSheet.create({

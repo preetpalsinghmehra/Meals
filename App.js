@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { StyleSheet } from 'react-native';
-import MealsNavigator from './navigation/MealsNavigator';
+import MainNavigator from './navigation/MealsNavigator';
 import * as Font from 'expo-font';
 import { AppLoading } from 'expo-app-loading';
 
@@ -18,7 +18,7 @@ export default function App() {
     return <AppLoading startAsync={fetchFonts} onFinish={setfontLoaded(true)} onError={console.warn+} />
   }*/}
   return (
-    <MealsNavigator />
+    <MainNavigator />
   );
 }
 

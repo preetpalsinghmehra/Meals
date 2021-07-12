@@ -1,5 +1,5 @@
 import React from 'react'
-import { View, Text, StyleSheet, TouchableNativeFeedback, TouchableOpacity, ImageBackground } from 'react-native';
+import { View, Text, StyleSheet, TouchableNativeFeedback, ImageBackground } from 'react-native';
 
 const MealItem = (props) => {
     return (

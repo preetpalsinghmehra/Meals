@@ -1,5 +1,5 @@
 import React from 'react';
-import { View, Text, FlatList, StyleSheet, TouchableOpacity } from 'react-native';
+import { FlatList, StyleSheet } from 'react-native';
 import GridTile from '../components/GridTile';
 import { CATEGORIES } from '../data/dummy-data';
 
@@ -10,7 +10,7 @@ const CategoriesScreen = (props) => {
         return (
             <GridTile
                 title={itemData.item.title}
-                color = {itemData.item.color}
+                color={itemData.item.color}
                 onSelect={() => {
                     props.navigation.navigate('CategoryMeals', {
                         categoryId: itemData.item.id,
